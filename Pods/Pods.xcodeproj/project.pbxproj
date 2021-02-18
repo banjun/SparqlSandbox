@@ -1,0 +1,1556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0205A0576AAC8E29185FC17238BE9120 /* Dispatch+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E55176C27F5B64074C41953A52D7392 /* Dispatch+BrightFutures.swift */; };
+		03A9DCAB769277872C81C6E8CD7B8C03 /* SyntaxPublicInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0925F01A4C92D91F9D932EA8E3951 /* SyntaxPublicInit.swift */; };
+		043E2D1661A68E2E0E5DAC54F29CCE2E /* MutableAsyncType+ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91503B52A53D8A8A0BBE68B09B6FE531 /* MutableAsyncType+ResultType.swift */; };
+		05EF7E0EA841554E7CA8C2FEC10D9987 /* BrightFutures-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B39050358AAE26B2959FE48278591384 /* BrightFutures-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06D9F21F9824796600CCC99846AC74D5 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264F97805450400B858EBBEA3A3ABBAD /* Converters.swift */; };
+		0B78F20AAC328849ECE8C26550BFD610 /* ※ikemen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FEA3C5EB2AA7CF1C70F6393A13E6DF /* ※ikemen-dummy.m */; };
+		10538D0D246824C2E3E11552BAAFE6FA /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C058B9FE102B75B95CDC8E994FCB5 /* ResultProtocol.swift */; };
+		1407D81878FB19F41CCD3CC683F28B65 /* BrightFutures-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C382F4E3258EEB13D9B813A48FEB5E7 /* BrightFutures-dummy.m */; };
+		181AC0BD7CD59880E117A4780F42CCF8 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79A0BCCA66041422C8C766D37B5D1B /* Future.swift */; };
+		18677EC4DD61110032D8839F6ED5674E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */; };
+		21145222492BCCD2CB607E36ADCD9D22 /* AsyncType+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CF51CC27892FEF340F930CFCDDB51C /* AsyncType+Debug.swift */; };
+		213F68A4F5ABD7ED016FF11FF0C21C03 /* AsyncType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE169E62AF22593B422E6598523AE65 /* AsyncType.swift */; };
+		23C551509030AF6069E51E7081FF065C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FA978F67D1045122CA35BC714A574 /* Request.swift */; };
+		245FCD2483AD1639B53DD9EBAE193869 /* SwiftSparql-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A693315535E087654FF323CBD2B497 /* SwiftSparql-dummy.m */; };
+		25D59C6C0ED2A8631FB07FD19AADB67C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFD859D3190EC363703182AA8CBCC86 /* AppKit.framework */; };
+		25E2D085A7B457B021A887CF79BCAFBE /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92314F9F3D6188134E545283550B921C /* Promise.swift */; };
+		30732C5D81E258E465C00E71E4F55E39 /* VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6093501D80E713CD09445C6E2597B9 /* VFL.swift */; };
+		38BB8A742B6BCECB82FE2697937FE0DB /* SequenceType+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2786812F8A34D4DEE4DE1C34C4200 /* SequenceType+BrightFutures.swift */; };
+		3DF0FB49B9A83DA2200CA33C6B09661D /* MutableAsyncType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD63C4553DB808F681E4BD006298EED /* MutableAsyncType.swift */; };
+		40F136356795069C49F977E6BE9B7A58 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */; };
+		42E349B33004E2A4521DF3563348A87A /* NSOperationQueue+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE53E74D0ED7368D38BEC6D30315A87 /* NSOperationQueue+BrightFutures.swift */; };
+		47D00071F2AEC0E7365F4F9A91ED6006 /* FootlessParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C983D4897A483A5A5873B1A5C09C520 /* FootlessParser.framework */; };
+		493878F30ED51E44F02796C76F44AD1A /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B424E15644CAEF7EAD56ADE0F45687B /* Errors.swift */; };
+		4D66CEC6BA6AF0842D4C386848F37A10 /* AsyncType+ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8224486DEEFB302FBD222535E2CD1D87 /* AsyncType+ResultType.swift */; };
+		4F26C600E8C84EEDBC9B702C575991D1 /* VFLSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C76A915EF2C70E758D656E40D2F35F /* VFLSyntax.swift */; };
+		4FF211146E4FFDEDD59FF88B0F40BF73 /* InvalidationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F647767B487B63EA27CDB519E4505 /* InvalidationToken.swift */; };
+		56061CE8F19804D6A8AF84F850ADEAE8 /* Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E386B8899E9F1263A43F500B9345E /* Sugar.swift */; };
+		57658A7DD932D4D18AD588B9E71D740F /* Result+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF939F62ED98ADF3525CBB5AF0C32E6 /* Result+BrightFutures.swift */; };
+		57D3CB7E41005D79B28CCC821BF6FD18 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF5A999E2262EBE50DE1B5F008A4CFD /* BrightFutures.framework */; };
+		6A3FBE1557D24753A53E91EEFC1B8ECA /* NorthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5690E6E1AD2E547DE57FF1BFFFC7B /* NorthLayout.swift */; };
+		71E62F7390B625B75CF601BDA7428CBA /* Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688A5B14F94CDD4895484C100153BA4 /* Parsers.swift */; };
+		7A8AB30187081AEDD6DA8788A9675709 /* NorthLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E054EB9B9B06722202EBB97629146118 /* NorthLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B132684D18A89B552279BA3C9395E38 /* vlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D444C7634E582B2DED5E698BF26B9A /* vlueprint.swift */; };
+		81974FE646BF481AC443775B83159255 /* TripleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671A4415D3D5B7E88F5E92FFFA26707 /* TripleBuilder.swift */; };
+		84E956041C50605D6C0104D3A30A6AAF /* FootlessParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 377302279D5613F9E9490E688791F1A8 /* FootlessParser-dummy.m */; };
+		86508B52BF397AEABC89C1FBE7F540B8 /* BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E1E9B7A6F6CD2CD45DB46ECC53F4A /* BrightFutures.swift */; };
+		8B52E60AFC3ECA0C44AD9111AFB188A1 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3981CB92B23B76D1D872041AD3DA /* Serializer.swift */; };
+		9074F691FC80DFBE4FA7E2B153148B52 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555CDDE62C3734184AAD40A115AF13C2 /* Response.swift */; };
+		9165CF4127C876927E40EA46C90B5371 /* Pods-SparqlSandbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94051B088BD1DF42FC31FA26AB7148DE /* Pods-SparqlSandbox-dummy.m */; };
+		9241591E707DCEFE7934B1FFB344F318 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */; };
+		94C0755A9310B7101C00C93CC3EDF6BD /* imasparql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88300147B9ED0CF6BF3F4925C3964FB9 /* imasparql.swift */; };
+		9695DA64B3947726379E90880A436840 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */; };
+		9AAE70C52A64352DD05356445E277168 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EC2ACE8A7C7815DF2A1EAFE381125 /* Async.swift */; };
+		9FF890E6E863AF9A644AAA0D32675BCE /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534658A56BD425D955B937B7CF5FD642 /* Parser.swift */; };
+		A8ACC128D42CE8EFCFD01BF61688D8EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */; };
+		A8E2F61B6355F230D711795E0A7D7771 /* Pods-SparqlSandbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F00146352144C2BA610A82D3EBF79F /* Pods-SparqlSandbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A95CDDE73183894588CC6167F1898ABE /* Parser+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B82C059829B9FE0327FB5513FBB16 /* Parser+Operators.swift */; };
+		ACBE674835536201F82CBA28BC066C37 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29354ADD856DEC1401A1A5C4D34AC01 /* StringParser.swift */; };
+		AF541C8551C13EB2EEDEBEA15E3C4131 /* prismdb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DC22732356E72DF7B60F9662070D8A /* prismdb.swift */; };
+		B16A9D36951603E473E61BA8E5DF0E29 /* ※ikemen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B8538A7C57F52525F9DD2A87C1F1EE /* ※ikemen.swift */; };
+		B3D7376465CE85FAA42EA2037CCDAE97 /* SwiftSparql-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DCB3BCE10DF6C0942B50CB67A94B9F /* SwiftSparql-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD8ACF3A487648463E22DF4C9F2F7C4A /* ExecutionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D201229118096965592DEDBDCEFB74 /* ExecutionContext.swift */; };
+		BE3B6280C3A0CE8A7DFDCBCFAC8C793C /* Syntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452FAB2D483F26AB6E0BABFCC2D45D3 /* Syntax.swift */; };
+		CA0BDD517FF26DFE643D34B1941BE07A /* NorthLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D08A85D8C1BC265FDDC11D93F0450C40 /* NorthLayout-dummy.m */; };
+		CDC22DDA886552B8B02398EAA860DC38 /* FootlessParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C983D4897A483A5A5873B1A5C09C520 /* FootlessParser.framework */; };
+		EC0D9C1E32E2452E818F511FCB11505B /* ※ikemen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E540F92D650A35F2ED7C6B508B7BAB /* ※ikemen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CD6A72930F5A6A302C5A75F292E4AC /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934BEF590699C03FD9AF8DBC1B1DFC7 /* Error.swift */; };
+		F6B0D9143BACD2B57B1C727FB077C333 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */; };
+		F77872CDA7B330889FDD576C9E24D92E /* Turtle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B8610FEF44C6452B85B14376771C5 /* Turtle.swift */; };
+		F9EE275B4802AD412C4D4610DF651B2F /* FootlessParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E13AA6F6EFE1F06424B4F04D40CF36 /* FootlessParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0561ECAAE00A7447DF9E169E85CCE45E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9534C1B9B9B05EE307DD82BFD308C72D;
+			remoteInfo = SwiftSparql;
+		};
+		069D5B4358CEF987529C4E347C653888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71F7E40C6D497B4D8863618F14CE1A2;
+			remoteInfo = FootlessParser;
+		};
+		446F2E1AB7217D7AFC125607558ADAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B870774BE6CC80AEC499B3082E2165EF;
+			remoteInfo = "※ikemen";
+		};
+		8CCFBF5291D3298DC2993D5C60F628FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A4299788AF53432D49DA779EE4F708;
+			remoteInfo = BrightFutures;
+		};
+		9CECD1C1AAF58A89A0B7E1B5B4078888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D617DA974B61CA259273739D3078A1F9;
+			remoteInfo = NorthLayout;
+		};
+		A0A91837C339A1406093C42775447A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71F7E40C6D497B4D8863618F14CE1A2;
+			remoteInfo = FootlessParser;
+		};
+		BE6F613743F595044191D6E010FCBC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71F7E40C6D497B4D8863618F14CE1A2;
+			remoteInfo = FootlessParser;
+		};
+		E57B2C36640C5299BFF481E9A0972A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A4299788AF53432D49DA779EE4F708;
+			remoteInfo = BrightFutures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003C058B9FE102B75B95CDC8E994FCB5 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Sources/BrightFutures/ResultProtocol.swift; sourceTree = "<group>"; };
+		02B8538A7C57F52525F9DD2A87C1F1EE /* ※ikemen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "※ikemen.swift"; path = "Pod/Classes/※ikemen.swift"; sourceTree = "<group>"; };
+		02EB0E419410988594CE0B01137DD9A6 /* NorthLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NorthLayout.debug.xcconfig; sourceTree = "<group>"; };
+		05DCB3BCE10DF6C0942B50CB67A94B9F /* SwiftSparql-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSparql-umbrella.h"; sourceTree = "<group>"; };
+		10371DF685C9E7B8DA8915883A3697FB /* BrightFutures.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BrightFutures.modulemap; sourceTree = "<group>"; };
+		108CB26734519096ADB359308CE4ACA3 /* ※ikemen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "※ikemen.release.xcconfig"; sourceTree = "<group>"; };
+		155E1E9B7A6F6CD2CD45DB46ECC53F4A /* BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrightFutures.swift; path = SwiftSparql/BrightFutures/BrightFutures.swift; sourceTree = "<group>"; };
+		1BA4A9759BA0B7B46D8130025DAD360D /* NorthLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NorthLayout.modulemap; sourceTree = "<group>"; };
+		1E8B5D30FCBCF2E80959FDBF7EE848DB /* FootlessParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FootlessParser.modulemap; sourceTree = "<group>"; };
+		215BD4A8982DF99A0E0DB93CA397E252 /* SwiftSparql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSparql.debug.xcconfig; sourceTree = "<group>"; };
+		21CC848B0487DC4AAC3580ADE9497C8A /* Ikemen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ikemen.framework; path = "※ikemen.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E540F92D650A35F2ED7C6B508B7BAB /* ※ikemen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-umbrella.h"; sourceTree = "<group>"; };
+		264F97805450400B858EBBEA3A3ABBAD /* Converters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Converters.swift; path = Sources/FootlessParser/Converters.swift; sourceTree = "<group>"; };
+		2B568397BBEE1D988238E602A38FF1EE /* ※ikemen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "※ikemen.modulemap"; sourceTree = "<group>"; };
+		30DFB1A24418A7A743CACB3012C294D0 /* BrightFutures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BrightFutures.debug.xcconfig; sourceTree = "<group>"; };
+		3452FAB2D483F26AB6E0BABFCC2D45D3 /* Syntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Syntax.swift; path = SwiftSparql/Classes/Syntax.swift; sourceTree = "<group>"; };
+		34D739FF5922EE3C4D1D2F8099E8A6A0 /* NorthLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-prefix.pch"; sourceTree = "<group>"; };
+		377302279D5613F9E9490E688791F1A8 /* FootlessParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FootlessParser-dummy.m"; sourceTree = "<group>"; };
+		398E8D4D22CDE08C1901D80FA5FDCABE /* Pods-SparqlSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparqlSandbox.release.xcconfig"; sourceTree = "<group>"; };
+		3A79A0BCCA66041422C8C766D37B5D1B /* Future.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Future.swift; path = Sources/BrightFutures/Future.swift; sourceTree = "<group>"; };
+		3B424E15644CAEF7EAD56ADE0F45687B /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/BrightFutures/Errors.swift; sourceTree = "<group>"; };
+		3B8F647767B487B63EA27CDB519E4505 /* InvalidationToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationToken.swift; path = Sources/BrightFutures/InvalidationToken.swift; sourceTree = "<group>"; };
+		3BB2786812F8A34D4DEE4DE1C34C4200 /* SequenceType+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SequenceType+BrightFutures.swift"; path = "Sources/BrightFutures/SequenceType+BrightFutures.swift"; sourceTree = "<group>"; };
+		3CE93AE30BC06989D0BB0E2E8552554B /* BrightFutures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BrightFutures.release.xcconfig; sourceTree = "<group>"; };
+		3E65AAA05486703DF1E68AB2EFFB2D54 /* NorthLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NorthLayout-Info.plist"; sourceTree = "<group>"; };
+		3FC3048D2BBFD6943B00B31F7DA2BC47 /* ※ikemen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "※ikemen.debug.xcconfig"; sourceTree = "<group>"; };
+		41475D0E338A1194254FC9D44BD095BA /* ※ikemen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "※ikemen-Info.plist"; sourceTree = "<group>"; };
+		41B0421BCFDF9C136CCD2E691B45D777 /* Pods-SparqlSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparqlSandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		4688A5B14F94CDD4895484C100153BA4 /* Parsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parsers.swift; path = Sources/FootlessParser/Parsers.swift; sourceTree = "<group>"; };
+		4BF5A999E2262EBE50DE1B5F008A4CFD /* BrightFutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BrightFutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C983D4897A483A5A5873B1A5C09C520 /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		534658A56BD425D955B937B7CF5FD642 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/FootlessParser/Parser.swift; sourceTree = "<group>"; };
+		53CC081290754BCE095B3552EEB383B9 /* Pods_SparqlSandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SparqlSandbox.framework; path = "Pods-SparqlSandbox.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D5102E98F18AEF6C23C33CE884E7B7 /* BrightFutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BrightFutures.framework; path = BrightFutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		555CDDE62C3734184AAD40A115AF13C2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = SwiftSparql/Classes/Response.swift; sourceTree = "<group>"; };
+		5D1A3981CB92B23B76D1D872041AD3DA /* Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Serializer.swift; path = SwiftSparql/Classes/Serializer.swift; sourceTree = "<group>"; };
+		5D6093501D80E713CD09445C6E2597B9 /* VFL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VFL.swift; path = Classes/VFL.swift; sourceTree = "<group>"; };
+		62FEA3C5EB2AA7CF1C70F6393A13E6DF /* ※ikemen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "※ikemen-dummy.m"; sourceTree = "<group>"; };
+		649177F0B0AEC214635B44D1F97F52C2 /* BrightFutures-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BrightFutures-Info.plist"; sourceTree = "<group>"; };
+		672CA8DE9A49508BEE1183135FEC8EEA /* FootlessParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-prefix.pch"; sourceTree = "<group>"; };
+		67C76A915EF2C70E758D656E40D2F35F /* VFLSyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VFLSyntax.swift; path = Classes/VFLSyntax.swift; sourceTree = "<group>"; };
+		6AA5690E6E1AD2E547DE57FF1BFFFC7B /* NorthLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NorthLayout.swift; path = Classes/NorthLayout.swift; sourceTree = "<group>"; };
+		6C32AF8200F59A9C9B6E0E42030B30B3 /* SwiftSparql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSparql.release.xcconfig; sourceTree = "<group>"; };
+		7289E430DB0462EEB50C5463001F8124 /* FootlessParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FootlessParser-Info.plist"; sourceTree = "<group>"; };
+		7671A4415D3D5B7E88F5E92FFFA26707 /* TripleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TripleBuilder.swift; path = SwiftSparql/Classes/TripleBuilder.swift; sourceTree = "<group>"; };
+		767478B67CCB528C85C7EF6B00AE7F45 /* NorthLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NorthLayout.release.xcconfig; sourceTree = "<group>"; };
+		792B8610FEF44C6452B85B14376771C5 /* Turtle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Turtle.swift; path = SwiftSparql/Classes/Turtle.swift; sourceTree = "<group>"; };
+		79DC22732356E72DF7B60F9662070D8A /* prismdb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = prismdb.swift; path = SwiftSparql/Classes/verbgen/prismdb.swift; sourceTree = "<group>"; };
+		7C2CC103A911CF1AB75796A5203E3042 /* SwiftSparql-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSparql-prefix.pch"; sourceTree = "<group>"; };
+		7F0FA978F67D1045122CA35BC714A574 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = SwiftSparql/Classes/Request.swift; sourceTree = "<group>"; };
+		805629A092BB019689A60D39E33E1175 /* Pods-SparqlSandbox-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparqlSandbox-frameworks.sh"; sourceTree = "<group>"; };
+		8224486DEEFB302FBD222535E2CD1D87 /* AsyncType+ResultType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AsyncType+ResultType.swift"; path = "Sources/BrightFutures/AsyncType+ResultType.swift"; sourceTree = "<group>"; };
+		87A693315535E087654FF323CBD2B497 /* SwiftSparql-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSparql-dummy.m"; sourceTree = "<group>"; };
+		87F00146352144C2BA610A82D3EBF79F /* Pods-SparqlSandbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparqlSandbox-umbrella.h"; sourceTree = "<group>"; };
+		88300147B9ED0CF6BF3F4925C3964FB9 /* imasparql.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = imasparql.swift; path = SwiftSparql/Classes/verbgen/imasparql.swift; sourceTree = "<group>"; };
+		8C823F21B7AE670FD3C9AFA3C1AA6AAB /* SwiftSparql.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSparql.modulemap; sourceTree = "<group>"; };
+		8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		91503B52A53D8A8A0BBE68B09B6FE531 /* MutableAsyncType+ResultType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MutableAsyncType+ResultType.swift"; path = "Sources/BrightFutures/MutableAsyncType+ResultType.swift"; sourceTree = "<group>"; };
+		917BD66DBFE154145893D3C4908B30C2 /* ※ikemen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-prefix.pch"; sourceTree = "<group>"; };
+		92314F9F3D6188134E545283550B921C /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/BrightFutures/Promise.swift; sourceTree = "<group>"; };
+		94051B088BD1DF42FC31FA26AB7148DE /* Pods-SparqlSandbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SparqlSandbox-dummy.m"; sourceTree = "<group>"; };
+		957B82C059829B9FE0327FB5513FBB16 /* Parser+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parser+Operators.swift"; path = "Sources/FootlessParser/Parser+Operators.swift"; sourceTree = "<group>"; };
+		98CF51CC27892FEF340F930CFCDDB51C /* AsyncType+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AsyncType+Debug.swift"; path = "Sources/BrightFutures/AsyncType+Debug.swift"; sourceTree = "<group>"; };
+		9934BEF590699C03FD9AF8DBC1B1DFC7 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/FootlessParser/Error.swift; sourceTree = "<group>"; };
+		9BD63C4553DB808F681E4BD006298EED /* MutableAsyncType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableAsyncType.swift; path = Sources/BrightFutures/MutableAsyncType.swift; sourceTree = "<group>"; };
+		9C382F4E3258EEB13D9B813A48FEB5E7 /* BrightFutures-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BrightFutures-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E55176C27F5B64074C41953A52D7392 /* Dispatch+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dispatch+BrightFutures.swift"; path = "Sources/BrightFutures/Dispatch+BrightFutures.swift"; sourceTree = "<group>"; };
+		A29354ADD856DEC1401A1A5C4D34AC01 /* StringParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParser.swift; path = Sources/FootlessParser/StringParser.swift; sourceTree = "<group>"; };
+		AA38ABC63C18DAB4C83EB8418BD39F07 /* FootlessParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FootlessParser.release.xcconfig; sourceTree = "<group>"; };
+		ADFD859D3190EC363703182AA8CBCC86 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		AFF939F62ED98ADF3525CBB5AF0C32E6 /* Result+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+BrightFutures.swift"; path = "Sources/BrightFutures/Result+BrightFutures.swift"; sourceTree = "<group>"; };
+		B39050358AAE26B2959FE48278591384 /* BrightFutures-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrightFutures-umbrella.h"; sourceTree = "<group>"; };
+		B407ACBF5DECDFFB83CFEFF3835275B4 /* BrightFutures-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrightFutures-prefix.pch"; sourceTree = "<group>"; };
+		B99BCCFDA42B8EC74240D1A4FCB9A3FB /* Pods-SparqlSandbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparqlSandbox-Info.plist"; sourceTree = "<group>"; };
+		BCE169E62AF22593B422E6598523AE65 /* AsyncType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncType.swift; path = Sources/BrightFutures/AsyncType.swift; sourceTree = "<group>"; };
+		C1E13AA6F6EFE1F06424B4F04D40CF36 /* FootlessParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-umbrella.h"; sourceTree = "<group>"; };
+		C2AD8B33975525AAE160012515ECBEDA /* NorthLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NorthLayout.framework; path = NorthLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D201229118096965592DEDBDCEFB74 /* ExecutionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExecutionContext.swift; path = Sources/BrightFutures/ExecutionContext.swift; sourceTree = "<group>"; };
+		C2E0E98552587110429CF010D0EDB418 /* SwiftSparql-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSparql-Info.plist"; sourceTree = "<group>"; };
+		C4AD048733B30049176E85C5C80BAF13 /* Pods-SparqlSandbox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SparqlSandbox-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9BD5FDBBC4529BB1B7F90756D4ED1E5 /* SwiftSparql.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSparql.framework; path = SwiftSparql.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE53E74D0ED7368D38BEC6D30315A87 /* NSOperationQueue+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSOperationQueue+BrightFutures.swift"; path = "Sources/BrightFutures/NSOperationQueue+BrightFutures.swift"; sourceTree = "<group>"; };
+		CE82653004A461329CB25F0C91A798CC /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FootlessParser.framework; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E386B8899E9F1263A43F500B9345E /* Sugar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sugar.swift; path = SwiftSparql/Classes/Sugar.swift; sourceTree = "<group>"; };
+		D08A85D8C1BC265FDDC11D93F0450C40 /* NorthLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NorthLayout-dummy.m"; sourceTree = "<group>"; };
+		D24EC2ACE8A7C7815DF2A1EAFE381125 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/BrightFutures/Async.swift; sourceTree = "<group>"; };
+		D3A0925F01A4C92D91F9D932EA8E3951 /* SyntaxPublicInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SyntaxPublicInit.swift; path = SwiftSparql/Classes/SyntaxPublicInit.swift; sourceTree = "<group>"; };
+		E054EB9B9B06722202EBB97629146118 /* NorthLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-umbrella.h"; sourceTree = "<group>"; };
+		E8C6A14D5B2812040F5D4EB64F3D761A /* Pods-SparqlSandbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SparqlSandbox.modulemap"; sourceTree = "<group>"; };
+		E9D444C7634E582B2DED5E698BF26B9A /* vlueprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = vlueprint.swift; path = SwiftSparql/Classes/verbgen/vlueprint.swift; sourceTree = "<group>"; };
+		F0BB509DC15928BA700C2F9F06CAF366 /* Pods-SparqlSandbox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparqlSandbox-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC31983EAD8769ECF332AC19BBE4A647 /* FootlessParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FootlessParser.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C491358421C9E21E655021999F51EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F136356795069C49F977E6BE9B7A58 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D1C8B4BB7614979FA32184D66A05D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B0D9143BACD2B57B1C727FB077C333 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C4A068C30139103827F742FEF28F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18677EC4DD61110032D8839F6ED5674E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EECCF11D1DCBC790A1F2131F33E5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D3CB7E41005D79B28CCC821BF6FD18 /* BrightFutures.framework in Frameworks */,
+				9695DA64B3947726379E90880A436840 /* Cocoa.framework in Frameworks */,
+				47D00071F2AEC0E7365F4F9A91ED6006 /* FootlessParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF0EF51B8334F24427CE9DBB5ECEE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D59C6C0ED2A8631FB07FD19AADB67C /* AppKit.framework in Frameworks */,
+				A8ACC128D42CE8EFCFD01BF61688D8EB /* Cocoa.framework in Frameworks */,
+				CDC22DDA886552B8B02398EAA860DC38 /* FootlessParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5218ED98757467C914061415B45CD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9241591E707DCEFE7934B1FFB344F318 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE1DEA32B357DC6411D82857529D1A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10371DF685C9E7B8DA8915883A3697FB /* BrightFutures.modulemap */,
+				9C382F4E3258EEB13D9B813A48FEB5E7 /* BrightFutures-dummy.m */,
+				649177F0B0AEC214635B44D1F97F52C2 /* BrightFutures-Info.plist */,
+				B407ACBF5DECDFFB83CFEFF3835275B4 /* BrightFutures-prefix.pch */,
+				B39050358AAE26B2959FE48278591384 /* BrightFutures-umbrella.h */,
+				30DFB1A24418A7A743CACB3012C294D0 /* BrightFutures.debug.xcconfig */,
+				3CE93AE30BC06989D0BB0E2E8552554B /* BrightFutures.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BrightFutures";
+			sourceTree = "<group>";
+		};
+		1315B7F7A7984A4A89EBB633A8DC3F0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B568397BBEE1D988238E602A38FF1EE /* ※ikemen.modulemap */,
+				62FEA3C5EB2AA7CF1C70F6393A13E6DF /* ※ikemen-dummy.m */,
+				41475D0E338A1194254FC9D44BD095BA /* ※ikemen-Info.plist */,
+				917BD66DBFE154145893D3C4908B30C2 /* ※ikemen-prefix.pch */,
+				22E540F92D650A35F2ED7C6B508B7BAB /* ※ikemen-umbrella.h */,
+				3FC3048D2BBFD6943B00B31F7DA2BC47 /* ※ikemen.debug.xcconfig */,
+				108CB26734519096ADB359308CE4ACA3 /* ※ikemen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/※ikemen";
+			sourceTree = "<group>";
+		};
+		2AC67829C091DCF8F1F3F2B0769C0C69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C711D7D329C7FCC4D180BFCE47C5AC78 /* BrightFutures */,
+				8C0BFD033AC1509E360E9C205B3308EF /* FootlessParser */,
+				62D9CFCC0876A2B1EFF49D76B8E14F6D /* NorthLayout */,
+				548E46EC196A05414CB70C595785103B /* SwiftSparql */,
+				343E77486DD391CAE6E35B36EE83DBE2 /* ※ikemen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		343E77486DD391CAE6E35B36EE83DBE2 /* ※ikemen */ = {
+			isa = PBXGroup;
+			children = (
+				02B8538A7C57F52525F9DD2A87C1F1EE /* ※ikemen.swift */,
+				1315B7F7A7984A4A89EBB633A8DC3F0C /* Support Files */,
+			);
+			name = "※ikemen";
+			path = "※ikemen";
+			sourceTree = "<group>";
+		};
+		3A4BE90C50F45AF4891AFAAE091F10D9 /* Pods-SparqlSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				E8C6A14D5B2812040F5D4EB64F3D761A /* Pods-SparqlSandbox.modulemap */,
+				C4AD048733B30049176E85C5C80BAF13 /* Pods-SparqlSandbox-acknowledgements.markdown */,
+				F0BB509DC15928BA700C2F9F06CAF366 /* Pods-SparqlSandbox-acknowledgements.plist */,
+				94051B088BD1DF42FC31FA26AB7148DE /* Pods-SparqlSandbox-dummy.m */,
+				805629A092BB019689A60D39E33E1175 /* Pods-SparqlSandbox-frameworks.sh */,
+				B99BCCFDA42B8EC74240D1A4FCB9A3FB /* Pods-SparqlSandbox-Info.plist */,
+				87F00146352144C2BA610A82D3EBF79F /* Pods-SparqlSandbox-umbrella.h */,
+				41B0421BCFDF9C136CCD2E691B45D777 /* Pods-SparqlSandbox.debug.xcconfig */,
+				398E8D4D22CDE08C1901D80FA5FDCABE /* Pods-SparqlSandbox.release.xcconfig */,
+			);
+			name = "Pods-SparqlSandbox";
+			path = "Target Support Files/Pods-SparqlSandbox";
+			sourceTree = "<group>";
+		};
+		4A3740E45F46C74EBE13AE62A6946ECD /* BrightFutures */ = {
+			isa = PBXGroup;
+			children = (
+				155E1E9B7A6F6CD2CD45DB46ECC53F4A /* BrightFutures.swift */,
+			);
+			name = BrightFutures;
+			sourceTree = "<group>";
+		};
+		501034E4723A366B8F3A458467FF0C76 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				88300147B9ED0CF6BF3F4925C3964FB9 /* imasparql.swift */,
+				79DC22732356E72DF7B60F9662070D8A /* prismdb.swift */,
+				7F0FA978F67D1045122CA35BC714A574 /* Request.swift */,
+				555CDDE62C3734184AAD40A115AF13C2 /* Response.swift */,
+				5D1A3981CB92B23B76D1D872041AD3DA /* Serializer.swift */,
+				CE8E386B8899E9F1263A43F500B9345E /* Sugar.swift */,
+				3452FAB2D483F26AB6E0BABFCC2D45D3 /* Syntax.swift */,
+				D3A0925F01A4C92D91F9D932EA8E3951 /* SyntaxPublicInit.swift */,
+				7671A4415D3D5B7E88F5E92FFFA26707 /* TripleBuilder.swift */,
+				792B8610FEF44C6452B85B14376771C5 /* Turtle.swift */,
+				E9D444C7634E582B2DED5E698BF26B9A /* vlueprint.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		548E46EC196A05414CB70C595785103B /* SwiftSparql */ = {
+			isa = PBXGroup;
+			children = (
+				4A3740E45F46C74EBE13AE62A6946ECD /* BrightFutures */,
+				501034E4723A366B8F3A458467FF0C76 /* Core */,
+				91B7B5C33C35F852983F82CC29C588A9 /* Support Files */,
+			);
+			name = SwiftSparql;
+			path = SwiftSparql;
+			sourceTree = "<group>";
+		};
+		62D9CFCC0876A2B1EFF49D76B8E14F6D /* NorthLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6AA5690E6E1AD2E547DE57FF1BFFFC7B /* NorthLayout.swift */,
+				5D6093501D80E713CD09445C6E2597B9 /* VFL.swift */,
+				67C76A915EF2C70E758D656E40D2F35F /* VFLSyntax.swift */,
+				9310BFA45E1C8DAD50D69ECAC5364B14 /* Support Files */,
+			);
+			name = NorthLayout;
+			path = NorthLayout;
+			sourceTree = "<group>";
+		};
+		724C058E03086F47AE58E468722B5F9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BF5A999E2262EBE50DE1B5F008A4CFD /* BrightFutures.framework */,
+				4C983D4897A483A5A5873B1A5C09C520 /* FootlessParser.framework */,
+				CE6D927C0E81C5C3F9157102F6AA2B72 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C0BFD033AC1509E360E9C205B3308EF /* FootlessParser */ = {
+			isa = PBXGroup;
+			children = (
+				264F97805450400B858EBBEA3A3ABBAD /* Converters.swift */,
+				9934BEF590699C03FD9AF8DBC1B1DFC7 /* Error.swift */,
+				534658A56BD425D955B937B7CF5FD642 /* Parser.swift */,
+				957B82C059829B9FE0327FB5513FBB16 /* Parser+Operators.swift */,
+				4688A5B14F94CDD4895484C100153BA4 /* Parsers.swift */,
+				A29354ADD856DEC1401A1A5C4D34AC01 /* StringParser.swift */,
+				C7DE1F8B032D9C97DCAE6F61B6CA5E4A /* Support Files */,
+			);
+			name = FootlessParser;
+			path = FootlessParser;
+			sourceTree = "<group>";
+		};
+		91B7B5C33C35F852983F82CC29C588A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C823F21B7AE670FD3C9AFA3C1AA6AAB /* SwiftSparql.modulemap */,
+				87A693315535E087654FF323CBD2B497 /* SwiftSparql-dummy.m */,
+				C2E0E98552587110429CF010D0EDB418 /* SwiftSparql-Info.plist */,
+				7C2CC103A911CF1AB75796A5203E3042 /* SwiftSparql-prefix.pch */,
+				05DCB3BCE10DF6C0942B50CB67A94B9F /* SwiftSparql-umbrella.h */,
+				215BD4A8982DF99A0E0DB93CA397E252 /* SwiftSparql.debug.xcconfig */,
+				6C32AF8200F59A9C9B6E0E42030B30B3 /* SwiftSparql.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSparql";
+			sourceTree = "<group>";
+		};
+		9310BFA45E1C8DAD50D69ECAC5364B14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA4A9759BA0B7B46D8130025DAD360D /* NorthLayout.modulemap */,
+				D08A85D8C1BC265FDDC11D93F0450C40 /* NorthLayout-dummy.m */,
+				3E65AAA05486703DF1E68AB2EFFB2D54 /* NorthLayout-Info.plist */,
+				34D739FF5922EE3C4D1D2F8099E8A6A0 /* NorthLayout-prefix.pch */,
+				E054EB9B9B06722202EBB97629146118 /* NorthLayout-umbrella.h */,
+				02EB0E419410988594CE0B01137DD9A6 /* NorthLayout.debug.xcconfig */,
+				767478B67CCB528C85C7EF6B00AE7F45 /* NorthLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NorthLayout";
+			sourceTree = "<group>";
+		};
+		A63F6EB81E38FE25B59909A74970BF24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4BE90C50F45AF4891AFAAE091F10D9 /* Pods-SparqlSandbox */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C711D7D329C7FCC4D180BFCE47C5AC78 /* BrightFutures */ = {
+			isa = PBXGroup;
+			children = (
+				D24EC2ACE8A7C7815DF2A1EAFE381125 /* Async.swift */,
+				BCE169E62AF22593B422E6598523AE65 /* AsyncType.swift */,
+				98CF51CC27892FEF340F930CFCDDB51C /* AsyncType+Debug.swift */,
+				8224486DEEFB302FBD222535E2CD1D87 /* AsyncType+ResultType.swift */,
+				9E55176C27F5B64074C41953A52D7392 /* Dispatch+BrightFutures.swift */,
+				3B424E15644CAEF7EAD56ADE0F45687B /* Errors.swift */,
+				C2D201229118096965592DEDBDCEFB74 /* ExecutionContext.swift */,
+				3A79A0BCCA66041422C8C766D37B5D1B /* Future.swift */,
+				3B8F647767B487B63EA27CDB519E4505 /* InvalidationToken.swift */,
+				9BD63C4553DB808F681E4BD006298EED /* MutableAsyncType.swift */,
+				91503B52A53D8A8A0BBE68B09B6FE531 /* MutableAsyncType+ResultType.swift */,
+				CAE53E74D0ED7368D38BEC6D30315A87 /* NSOperationQueue+BrightFutures.swift */,
+				92314F9F3D6188134E545283550B921C /* Promise.swift */,
+				AFF939F62ED98ADF3525CBB5AF0C32E6 /* Result+BrightFutures.swift */,
+				003C058B9FE102B75B95CDC8E994FCB5 /* ResultProtocol.swift */,
+				3BB2786812F8A34D4DEE4DE1C34C4200 /* SequenceType+BrightFutures.swift */,
+				0EE1DEA32B357DC6411D82857529D1A9 /* Support Files */,
+			);
+			name = BrightFutures;
+			path = BrightFutures;
+			sourceTree = "<group>";
+		};
+		C7DE1F8B032D9C97DCAE6F61B6CA5E4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8B5D30FCBCF2E80959FDBF7EE848DB /* FootlessParser.modulemap */,
+				377302279D5613F9E9490E688791F1A8 /* FootlessParser-dummy.m */,
+				7289E430DB0462EEB50C5463001F8124 /* FootlessParser-Info.plist */,
+				672CA8DE9A49508BEE1183135FEC8EEA /* FootlessParser-prefix.pch */,
+				C1E13AA6F6EFE1F06424B4F04D40CF36 /* FootlessParser-umbrella.h */,
+				FC31983EAD8769ECF332AC19BBE4A647 /* FootlessParser.debug.xcconfig */,
+				AA38ABC63C18DAB4C83EB8418BD39F07 /* FootlessParser.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FootlessParser";
+			sourceTree = "<group>";
+		};
+		CE6D927C0E81C5C3F9157102F6AA2B72 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				ADFD859D3190EC363703182AA8CBCC86 /* AppKit.framework */,
+				8D9B86E976B66D248AA78E2626FF605F /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				724C058E03086F47AE58E468722B5F9C /* Frameworks */,
+				2AC67829C091DCF8F1F3F2B0769C0C69 /* Pods */,
+				EC380751B51611379B4F208EF45A4354 /* Products */,
+				A63F6EB81E38FE25B59909A74970BF24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EC380751B51611379B4F208EF45A4354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D5102E98F18AEF6C23C33CE884E7B7 /* BrightFutures.framework */,
+				CE82653004A461329CB25F0C91A798CC /* FootlessParser.framework */,
+				21CC848B0487DC4AAC3580ADE9497C8A /* Ikemen.framework */,
+				C2AD8B33975525AAE160012515ECBEDA /* NorthLayout.framework */,
+				53CC081290754BCE095B3552EEB383B9 /* Pods_SparqlSandbox.framework */,
+				C9BD5FDBBC4529BB1B7F90756D4ED1E5 /* SwiftSparql.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1373667EC95139DE51149747BFF62EA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EF7E0EA841554E7CA8C2FEC10D9987 /* BrightFutures-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C70B83B04FAD539E65866BF22F4496 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D7376465CE85FAA42EA2037CCDAE97 /* SwiftSparql-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F35E0D51A624461170123EAB1CD41A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E2F61B6355F230D711795E0A7D7771 /* Pods-SparqlSandbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E075AA2953BAB41659D0FB1D6FB9AFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EE275B4802AD412C4D4610DF651B2F /* FootlessParser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D3131F5693B7C29F99A47C665694D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0D9C1E32E2452E818F511FCB11505B /* ※ikemen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58AFB873A1F52958E32802A6C517804 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8AB30187081AEDD6DA8788A9675709 /* NorthLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CC859C6052A383631789BE9DFD8182F /* Pods-SparqlSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F8F320247D3F40BC62A796B8C34B77 /* Build configuration list for PBXNativeTarget "Pods-SparqlSandbox" */;
+			buildPhases = (
+				25F35E0D51A624461170123EAB1CD41A /* Headers */,
+				1AF2790A8409DD4A09490E6CA6810526 /* Sources */,
+				81C4A068C30139103827F742FEF28F29 /* Frameworks */,
+				1BAEF8E2052E4ED77A36122439551B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E17D92379202EF8D861CBB90C11B39E /* PBXTargetDependency */,
+				D697754391FD7B51680B7B5D5D2A24BE /* PBXTargetDependency */,
+				FFFA8C1FA7008B02EF5DB9578B4E92D5 /* PBXTargetDependency */,
+				3A0EDCFD3B9FA1E7C946F76222AA3615 /* PBXTargetDependency */,
+				69D7D89A631A7692D4D2C6B1C2928340 /* PBXTargetDependency */,
+			);
+			name = "Pods-SparqlSandbox";
+			productName = "Pods-SparqlSandbox";
+			productReference = 53CC081290754BCE095B3552EEB383B9 /* Pods_SparqlSandbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9534C1B9B9B05EE307DD82BFD308C72D /* SwiftSparql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E5BECA568A1EB3CDC686B6A2A68844 /* Build configuration list for PBXNativeTarget "SwiftSparql" */;
+			buildPhases = (
+				18C70B83B04FAD539E65866BF22F4496 /* Headers */,
+				DA3D9F702A39501AF6E54F26DB6B82E1 /* Sources */,
+				A1EECCF11D1DCBC790A1F2131F33E5F8 /* Frameworks */,
+				8403EACF23C6A86181519CF87DC912F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42992194E1DEC58F8AA947685C0E807D /* PBXTargetDependency */,
+				778BE1401A664F20DFDD063460681AA3 /* PBXTargetDependency */,
+			);
+			name = SwiftSparql;
+			productName = SwiftSparql;
+			productReference = C9BD5FDBBC4529BB1B7F90756D4ED1E5 /* SwiftSparql.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A71F7E40C6D497B4D8863618F14CE1A2 /* FootlessParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A225095965C161E553E2B955C8EA7ADF /* Build configuration list for PBXNativeTarget "FootlessParser" */;
+			buildPhases = (
+				6E075AA2953BAB41659D0FB1D6FB9AFE /* Headers */,
+				6D795279C1782FB73F5B9AF038C681C2 /* Sources */,
+				03C491358421C9E21E655021999F51EA /* Frameworks */,
+				BDC329BF5ED0E2598E52527CD5CFE432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootlessParser;
+			productName = FootlessParser;
+			productReference = CE82653004A461329CB25F0C91A798CC /* FootlessParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9A4299788AF53432D49DA779EE4F708 /* BrightFutures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51305422EAA97289750F9D61B34FAB0B /* Build configuration list for PBXNativeTarget "BrightFutures" */;
+			buildPhases = (
+				1373667EC95139DE51149747BFF62EA5 /* Headers */,
+				E284E73D3E314275B35B8AAC6CC067BF /* Sources */,
+				F5218ED98757467C914061415B45CD28 /* Frameworks */,
+				ACC0F4DC6FC912ED3B9FA82639351A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrightFutures;
+			productName = BrightFutures;
+			productReference = 53D5102E98F18AEF6C23C33CE884E7B7 /* BrightFutures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B870774BE6CC80AEC499B3082E2165EF /* ※ikemen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77CA0E558170BA63E1D81BF628320323 /* Build configuration list for PBXNativeTarget "※ikemen" */;
+			buildPhases = (
+				F1D3131F5693B7C29F99A47C665694D1 /* Headers */,
+				2AE5CD3114156692D26D8D371BFC6B4A /* Sources */,
+				16D1C8B4BB7614979FA32184D66A05D6 /* Frameworks */,
+				56EBAAFF253192B2F3EA5981AC9D9A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "※ikemen";
+			productName = "※ikemen";
+			productReference = 21CC848B0487DC4AAC3580ADE9497C8A /* Ikemen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D617DA974B61CA259273739D3078A1F9 /* NorthLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8DCB0F2B21E7790F0545C48B5E1CB6 /* Build configuration list for PBXNativeTarget "NorthLayout" */;
+			buildPhases = (
+				F58AFB873A1F52958E32802A6C517804 /* Headers */,
+				03C519560266A9FBB60E4A8D19217A80 /* Sources */,
+				EBF0EF51B8334F24427CE9DBB5ECEE56 /* Frameworks */,
+				83C15A15A2C53E760A88AFC79CFB2A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6ABE86CF53F73E1EC7046A0AEB5E044 /* PBXTargetDependency */,
+			);
+			name = NorthLayout;
+			productName = NorthLayout;
+			productReference = C2AD8B33975525AAE160012515ECBEDA /* NorthLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC380751B51611379B4F208EF45A4354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A4299788AF53432D49DA779EE4F708 /* BrightFutures */,
+				A71F7E40C6D497B4D8863618F14CE1A2 /* FootlessParser */,
+				D617DA974B61CA259273739D3078A1F9 /* NorthLayout */,
+				4CC859C6052A383631789BE9DFD8182F /* Pods-SparqlSandbox */,
+				9534C1B9B9B05EE307DD82BFD308C72D /* SwiftSparql */,
+				B870774BE6CC80AEC499B3082E2165EF /* ※ikemen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BAEF8E2052E4ED77A36122439551B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EBAAFF253192B2F3EA5981AC9D9A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C15A15A2C53E760A88AFC79CFB2A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403EACF23C6A86181519CF87DC912F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC0F4DC6FC912ED3B9FA82639351A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC329BF5ED0E2598E52527CD5CFE432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C519560266A9FBB60E4A8D19217A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BDD517FF26DFE643D34B1941BE07A /* NorthLayout-dummy.m in Sources */,
+				6A3FBE1557D24753A53E91EEFC1B8ECA /* NorthLayout.swift in Sources */,
+				30732C5D81E258E465C00E71E4F55E39 /* VFL.swift in Sources */,
+				4F26C600E8C84EEDBC9B702C575991D1 /* VFLSyntax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF2790A8409DD4A09490E6CA6810526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9165CF4127C876927E40EA46C90B5371 /* Pods-SparqlSandbox-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE5CD3114156692D26D8D371BFC6B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B78F20AAC328849ECE8C26550BFD610 /* ※ikemen-dummy.m in Sources */,
+				B16A9D36951603E473E61BA8E5DF0E29 /* ※ikemen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D795279C1782FB73F5B9AF038C681C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D9F21F9824796600CCC99846AC74D5 /* Converters.swift in Sources */,
+				F5CD6A72930F5A6A302C5A75F292E4AC /* Error.swift in Sources */,
+				84E956041C50605D6C0104D3A30A6AAF /* FootlessParser-dummy.m in Sources */,
+				A95CDDE73183894588CC6167F1898ABE /* Parser+Operators.swift in Sources */,
+				9FF890E6E863AF9A644AAA0D32675BCE /* Parser.swift in Sources */,
+				71E62F7390B625B75CF601BDA7428CBA /* Parsers.swift in Sources */,
+				ACBE674835536201F82CBA28BC066C37 /* StringParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3D9F702A39501AF6E54F26DB6B82E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86508B52BF397AEABC89C1FBE7F540B8 /* BrightFutures.swift in Sources */,
+				94C0755A9310B7101C00C93CC3EDF6BD /* imasparql.swift in Sources */,
+				AF541C8551C13EB2EEDEBEA15E3C4131 /* prismdb.swift in Sources */,
+				23C551509030AF6069E51E7081FF065C /* Request.swift in Sources */,
+				9074F691FC80DFBE4FA7E2B153148B52 /* Response.swift in Sources */,
+				8B52E60AFC3ECA0C44AD9111AFB188A1 /* Serializer.swift in Sources */,
+				56061CE8F19804D6A8AF84F850ADEAE8 /* Sugar.swift in Sources */,
+				245FCD2483AD1639B53DD9EBAE193869 /* SwiftSparql-dummy.m in Sources */,
+				BE3B6280C3A0CE8A7DFDCBCFAC8C793C /* Syntax.swift in Sources */,
+				03A9DCAB769277872C81C6E8CD7B8C03 /* SyntaxPublicInit.swift in Sources */,
+				81974FE646BF481AC443775B83159255 /* TripleBuilder.swift in Sources */,
+				F77872CDA7B330889FDD576C9E24D92E /* Turtle.swift in Sources */,
+				7B132684D18A89B552279BA3C9395E38 /* vlueprint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E284E73D3E314275B35B8AAC6CC067BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE70C52A64352DD05356445E277168 /* Async.swift in Sources */,
+				21145222492BCCD2CB607E36ADCD9D22 /* AsyncType+Debug.swift in Sources */,
+				4D66CEC6BA6AF0842D4C386848F37A10 /* AsyncType+ResultType.swift in Sources */,
+				213F68A4F5ABD7ED016FF11FF0C21C03 /* AsyncType.swift in Sources */,
+				1407D81878FB19F41CCD3CC683F28B65 /* BrightFutures-dummy.m in Sources */,
+				0205A0576AAC8E29185FC17238BE9120 /* Dispatch+BrightFutures.swift in Sources */,
+				493878F30ED51E44F02796C76F44AD1A /* Errors.swift in Sources */,
+				BD8ACF3A487648463E22DF4C9F2F7C4A /* ExecutionContext.swift in Sources */,
+				181AC0BD7CD59880E117A4780F42CCF8 /* Future.swift in Sources */,
+				4FF211146E4FFDEDD59FF88B0F40BF73 /* InvalidationToken.swift in Sources */,
+				043E2D1661A68E2E0E5DAC54F29CCE2E /* MutableAsyncType+ResultType.swift in Sources */,
+				3DF0FB49B9A83DA2200CA33C6B09661D /* MutableAsyncType.swift in Sources */,
+				42E349B33004E2A4521DF3563348A87A /* NSOperationQueue+BrightFutures.swift in Sources */,
+				25E2D085A7B457B021A887CF79BCAFBE /* Promise.swift in Sources */,
+				57658A7DD932D4D18AD588B9E71D740F /* Result+BrightFutures.swift in Sources */,
+				10538D0D246824C2E3E11552BAAFE6FA /* ResultProtocol.swift in Sources */,
+				38BB8A742B6BCECB82FE2697937FE0DB /* SequenceType+BrightFutures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E17D92379202EF8D861CBB90C11B39E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BrightFutures;
+			target = A9A4299788AF53432D49DA779EE4F708 /* BrightFutures */;
+			targetProxy = E57B2C36640C5299BFF481E9A0972A65 /* PBXContainerItemProxy */;
+		};
+		3A0EDCFD3B9FA1E7C946F76222AA3615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSparql;
+			target = 9534C1B9B9B05EE307DD82BFD308C72D /* SwiftSparql */;
+			targetProxy = 0561ECAAE00A7447DF9E169E85CCE45E /* PBXContainerItemProxy */;
+		};
+		42992194E1DEC58F8AA947685C0E807D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BrightFutures;
+			target = A9A4299788AF53432D49DA779EE4F708 /* BrightFutures */;
+			targetProxy = 8CCFBF5291D3298DC2993D5C60F628FD /* PBXContainerItemProxy */;
+		};
+		69D7D89A631A7692D4D2C6B1C2928340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "※ikemen";
+			target = B870774BE6CC80AEC499B3082E2165EF /* ※ikemen */;
+			targetProxy = 446F2E1AB7217D7AFC125607558ADAD2 /* PBXContainerItemProxy */;
+		};
+		778BE1401A664F20DFDD063460681AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FootlessParser;
+			target = A71F7E40C6D497B4D8863618F14CE1A2 /* FootlessParser */;
+			targetProxy = A0A91837C339A1406093C42775447A33 /* PBXContainerItemProxy */;
+		};
+		D697754391FD7B51680B7B5D5D2A24BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FootlessParser;
+			target = A71F7E40C6D497B4D8863618F14CE1A2 /* FootlessParser */;
+			targetProxy = 069D5B4358CEF987529C4E347C653888 /* PBXContainerItemProxy */;
+		};
+		D6ABE86CF53F73E1EC7046A0AEB5E044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FootlessParser;
+			target = A71F7E40C6D497B4D8863618F14CE1A2 /* FootlessParser */;
+			targetProxy = BE6F613743F595044191D6E010FCBC41 /* PBXContainerItemProxy */;
+		};
+		FFFA8C1FA7008B02EF5DB9578B4E92D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NorthLayout;
+			target = D617DA974B61CA259273739D3078A1F9 /* NorthLayout */;
+			targetProxy = 9CECD1C1AAF58A89A0B7E1B5B4078888 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16F4851C31E1E9391EE253B4375FE37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B0421BCFDF9C136CCD2E691B45D777 /* Pods-SparqlSandbox.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50FDA82B087F699960B9406C50429D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA38ABC63C18DAB4C83EB8418BD39F07 /* FootlessParser.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FootlessParser/FootlessParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FootlessParser/FootlessParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/FootlessParser/FootlessParser.modulemap";
+				PRODUCT_MODULE_NAME = FootlessParser;
+				PRODUCT_NAME = FootlessParser;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		745EC0D2A026C40F0FB901D58A63DB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767478B67CCB528C85C7EF6B00AE7F45 /* NorthLayout.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NorthLayout/NorthLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
+				PRODUCT_MODULE_NAME = NorthLayout;
+				PRODUCT_NAME = NorthLayout;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75ACC19545E300D8B1D4C746F0ABE8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC3048D2BBFD6943B00B31F7DA2BC47 /* ※ikemen.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/※ikemen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				PRODUCT_MODULE_NAME = Ikemen;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82E73717A2562031D5E1F4D85DD1A982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A20D3C295C48715B5180E8A1461342A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE93AE30BC06989D0BB0E2E8552554B /* BrightFutures.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BrightFutures/BrightFutures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BrightFutures/BrightFutures-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/BrightFutures/BrightFutures.modulemap";
+				PRODUCT_MODULE_NAME = BrightFutures;
+				PRODUCT_NAME = BrightFutures;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEECC1894DA350ACC69DB94223954463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108CB26734519096ADB359308CE4ACA3 /* ※ikemen.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/※ikemen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				PRODUCT_MODULE_NAME = Ikemen;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C453CCA2915ECFC8B44E4B9C9D6A34BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C32AF8200F59A9C9B6E0E42030B30B3 /* SwiftSparql.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSparql/SwiftSparql-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSparql/SwiftSparql-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/SwiftSparql/SwiftSparql.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSparql;
+				PRODUCT_NAME = SwiftSparql;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6C0FA65F38C1E748AF8FBDE5ACA20CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EB0E419410988594CE0B01137DD9A6 /* NorthLayout.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NorthLayout/NorthLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
+				PRODUCT_MODULE_NAME = NorthLayout;
+				PRODUCT_NAME = NorthLayout;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D39E634FC2CFF97419EB3682DD2807FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7E711C1A24248E1AB8C1735C673ED01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DFB1A24418A7A743CACB3012C294D0 /* BrightFutures.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BrightFutures/BrightFutures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BrightFutures/BrightFutures-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/BrightFutures/BrightFutures.modulemap";
+				PRODUCT_MODULE_NAME = BrightFutures;
+				PRODUCT_NAME = BrightFutures;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE483158B00C9D5385F2B99ED441DCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398E8D4D22CDE08C1901D80FA5FDCABE /* Pods-SparqlSandbox.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F008D1E9B051276508AE4E9572F3CF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC31983EAD8769ECF332AC19BBE4A647 /* FootlessParser.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FootlessParser/FootlessParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FootlessParser/FootlessParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/FootlessParser/FootlessParser.modulemap";
+				PRODUCT_MODULE_NAME = FootlessParser;
+				PRODUCT_NAME = FootlessParser;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFE472F78F842C9DFE53D190DB484708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215BD4A8982DF99A0E0DB93CA397E252 /* SwiftSparql.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSparql/SwiftSparql-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSparql/SwiftSparql-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/SwiftSparql/SwiftSparql.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSparql;
+				PRODUCT_NAME = SwiftSparql;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8DCB0F2B21E7790F0545C48B5E1CB6 /* Build configuration list for PBXNativeTarget "NorthLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C0FA65F38C1E748AF8FBDE5ACA20CB /* Debug */,
+				745EC0D2A026C40F0FB901D58A63DB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F8F320247D3F40BC62A796B8C34B77 /* Build configuration list for PBXNativeTarget "Pods-SparqlSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F4851C31E1E9391EE253B4375FE37D /* Debug */,
+				DE483158B00C9D5385F2B99ED441DCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39E634FC2CFF97419EB3682DD2807FA /* Debug */,
+				82E73717A2562031D5E1F4D85DD1A982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51305422EAA97289750F9D61B34FAB0B /* Build configuration list for PBXNativeTarget "BrightFutures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E711C1A24248E1AB8C1735C673ED01 /* Debug */,
+				A20D3C295C48715B5180E8A1461342A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E5BECA568A1EB3CDC686B6A2A68844 /* Build configuration list for PBXNativeTarget "SwiftSparql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE472F78F842C9DFE53D190DB484708 /* Debug */,
+				C453CCA2915ECFC8B44E4B9C9D6A34BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77CA0E558170BA63E1D81BF628320323 /* Build configuration list for PBXNativeTarget "※ikemen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75ACC19545E300D8B1D4C746F0ABE8F6 /* Debug */,
+				AEECC1894DA350ACC69DB94223954463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A225095965C161E553E2B955C8EA7ADF /* Build configuration list for PBXNativeTarget "FootlessParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F008D1E9B051276508AE4E9572F3CF6F /* Debug */,
+				50FDA82B087F699960B9406C50429D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

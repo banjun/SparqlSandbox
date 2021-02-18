@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCA7DA4F19DD35068A5BC9D7 /* Pods_SparqlSandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67646AB9A651D52931BD5527 /* Pods_SparqlSandbox.framework */; };
 		EA371E5225DE8AC300708109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA371E5125DE8AC300708109 /* AppDelegate.swift */; };
 		EA371E5425DE8AC300708109 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA371E5325DE8AC300708109 /* ViewController.swift */; };
 		EA371E5625DE8AC500708109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA371E5525DE8AC500708109 /* Assets.xcassets */; };
@@ -206,6 +207,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14469ED2DCA0B0203A48EFF9 /* Pods-SparqlSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparqlSandbox.debug.xcconfig"; path = "Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		67646AB9A651D52931BD5527 /* Pods_SparqlSandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparqlSandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A64841ABF80330A93F6398F /* Pods-SparqlSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparqlSandbox.release.xcconfig"; path = "Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox.release.xcconfig"; sourceTree = "<group>"; };
 		EA371E4E25DE8AC300708109 /* SparqlSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparqlSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA371E5125DE8AC300708109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA371E5325DE8AC300708109 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -389,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA371FCA25DE900A00708109 /* Antlr4.framework in Frameworks */,
+				DCA7DA4F19DD35068A5BC9D7 /* Pods_SparqlSandbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +407,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47CAA41697EE6AFD114B4857 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14469ED2DCA0B0203A48EFF9 /* Pods-SparqlSandbox.debug.xcconfig */,
+				9A64841ABF80330A93F6398F /* Pods-SparqlSandbox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D48BA34D2E835AA1A08DF4E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67646AB9A651D52931BD5527 /* Pods_SparqlSandbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA371E4525DE8AC300708109 = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +432,8 @@
 				EA371E6225DE8FA500708109 /* Antlr4 */,
 				EA371FC425DE900A00708109 /* Antlr4 */,
 				EA371E4F25DE8AC300708109 /* Products */,
+				47CAA41697EE6AFD114B4857 /* Pods */,
+				D48BA34D2E835AA1A08DF4E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -705,10 +729,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA371E5E25DE8AC500708109 /* Build configuration list for PBXNativeTarget "SparqlSandbox" */;
 			buildPhases = (
+				28BE6878AB8C1FC4D0AB2EE2 /* [CP] Check Pods Manifest.lock */,
 				EA371E4A25DE8AC300708109 /* Sources */,
 				EA371E4B25DE8AC300708109 /* Frameworks */,
 				EA371E4C25DE8AC300708109 /* Resources */,
 				EA371FCF25DE900A00708109 /* Embed Frameworks */,
+				ECA33F4D7375018661313129 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -798,6 +824,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28BE6878AB8C1FC4D0AB2EE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparqlSandbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA33F4D7375018661313129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparqlSandbox/Pods-SparqlSandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA371E4A25DE8AC300708109 /* Sources */ = {
@@ -1114,8 +1182,8 @@
 		};
 		EA371E5F25DE8AC500708109 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14469ED2DCA0B0203A48EFF9 /* Pods-SparqlSandbox.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SparqlSandbox/SparqlSandbox.entitlements;
@@ -1134,8 +1202,8 @@
 		};
 		EA371E6025DE8AC500708109 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A64841ABF80330A93F6398F /* Pods-SparqlSandbox.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SparqlSandbox/SparqlSandbox.entitlements;

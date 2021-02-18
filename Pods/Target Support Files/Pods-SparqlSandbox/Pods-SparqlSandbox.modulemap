@@ -1,0 +1,6 @@
+framework module Pods_SparqlSandbox {
+  umbrella header "Pods-SparqlSandbox-umbrella.h"
+
+  export *
+  module * { export * }
+}
